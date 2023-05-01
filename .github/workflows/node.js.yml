@@ -6,25 +6,13 @@ name: Node.js CI
 on:
   push:
     branches:
-<<<<<<< HEAD
       - main
-      - issue-*
   pull_request:
     branches:
       - main
-      - issue-*
-=======
-        - main
-        - issue-*
-  pull_request:
-    branches:
-        - main
-        - issue-*
->>>>>>> main
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
